@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Donate with us</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link href="https://fonts.googleapis.com/css?family=Monoton|Work+Sans:400,800" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="/stylesheets/site.css">
+</head>
+<body>
+  <header class="header">
+    <h1>Donate with us</h1>
+    <div class="container">
+      <p>Hi there! We're donating some money to organizations we care about every month. Wanna help? 👇</p>
+      <p><a href="" class="button">help us donate!</a></p>
+    </div>
+  </header>
+
+  <section class="about">
+    <div class="container flex">
+      {{#section about multiple=true sortable=true}}
+      <div class="item">
+        <h2>{{header}}</h2>
+        <p>{{text long=true}}</p>
+      </div>
+      {{/section}}
+    </div>
+  </section>
+
+  <section class="people">
+    <div class="container flex">
+    {{#section people multiple=true sortable=true}}
+      <div class="item people">
+        {{avatar type=image width=100 height=100}}
+        <div class="info">
+          <p class="name">{{name}}</p>
+          <a href="{{url}}">help me donate →</a>
+        </div>
+      </div>
+    {{/section}}
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <p><small>👋 Want to set up your own profile to donate? Get in touch!</small></p>
+      <p><a href="" class="button">join us!</a></p>
+    </div>
+  </footer>
+
+  <script src="/javascripts/site.js"></script>
+</body>
+</html>

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Donate with us</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link href="https://fonts.googleapis.com/css?family=Monoton|Work+Sans:400,800" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="/stylesheets/people.css">
+</head>
+<body>
+  <header class="header">
+    <h1><a href="/index">Help us donate</a></h1>
+  </header>
+
+  {{#section profile label="Jillian/Profile"}}
+  <section class="profile">
+    {{avatar type=image width=100 height=100}}
+    <div class="bio">
+      <h4>Hi, I'm <a href="{{url}}">{{name}}</a></h4>
+      <p><small>{{bio type=text large=true}}</small></p>
+      <p><small>Scroll down to see my past donations.</small></p>
+      <h3>donating to</h3>
+      <p>{{donating-to}}</p>
+      <h3>shop with me</h3>
+      {{#section links label="Jillian/Links" multiple=true}}
+      <p><a href="{{url}}">{{link title}} →</a></p>
+      {{/section}}
+    </div>
+  {{/section}}
+  </section>
+
+  <section class="donations">
+    <h5>Past donations</h5>
+    <div class="container flex">
+    {{#section donations label="Jillian/Donations" multiple=true}}
+      <div class="item donation">
+        <p class="date">{{date}}</p>
+        <p><a href="{{org url}}">{{organization}}</a></p>
+        <p class="donation-amount">${{donation type=number}}</p>
+      </div>
+    </div>
+  {{/section}}
+  </section>
+
+  <footer>
+    <p><a href="" class="button">help me donate!</a></p>
+  </footer>
+
+  <script src="/javascripts/site.js"></script>
+</body>
+</html>
