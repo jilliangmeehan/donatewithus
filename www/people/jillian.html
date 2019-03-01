@@ -8,7 +8,7 @@
   <link rel="stylesheet" type="text/css" href="/stylesheets/people.css">
 </head>
 <body>
-  <header class="header">
+  <header class="header" id="page-anchor">
     <h1><a href="/index">Help us donate</a></h1>
   </header>
 
@@ -46,9 +46,30 @@
   </section>
 
   <footer>
-    <p><a href="" class="button">help me donate!</a></p>
+    <p><a href="#page-anchor" class="button">help me donate!</a></p>
   </footer>
 
   <script src="/javascripts/site.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script>
+    $(document).ready(function(){
+  $("a").on('click', function(event) {
+
+    if (this.hash !== "") {
+      event.preventDefault();
+
+      var hash = this.hash;
+
+
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 1500, function(){
+
+        window.location.hash = hash;
+      });
+    }
+  });
+});
+  </script>
 </body>
 </html>

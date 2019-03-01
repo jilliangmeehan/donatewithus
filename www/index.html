@@ -12,7 +12,7 @@
     <h1>Donate with us</h1>
     <div class="container">
       <p>Hi there! We're donating some money to organizations we care about every month. Wanna help? 👇</p>
-      <p><a href="" class="button">help us donate!</a></p>
+      <p><a href="#page-anchor" class="button">help us donate!</a></p>
     </div>
   </header>
 
@@ -27,7 +27,7 @@
     </div>
   </section>
 
-  <section class="people">
+  <section class="people" id="page-anchor">
     <div class="container flex">
     {{#section people multiple=true sortable=true}}
       <div class="item people">
@@ -49,5 +49,26 @@
   </footer>
 
   <script src="/javascripts/site.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script>
+    $(document).ready(function(){
+  $("a").on('click', function(event) {
+
+    if (this.hash !== "") {
+      event.preventDefault();
+
+      var hash = this.hash;
+
+
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 1500, function(){
+
+        window.location.hash = hash;
+      });
+    }
+  });
+});
+  </script>
 </body>
 </html>
