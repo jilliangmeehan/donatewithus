@@ -81,7 +81,6 @@ img {
   }
 
   @media screen and (min-width: 960px) {
-
     &.flex {
       flex-direction: row;
       justify-content: space-around;
@@ -104,6 +103,15 @@ img {
             text-align: left;
           }
         }
+      }
+    }
+  }
+
+  @media screen and (min-width: 400px) {
+    &.flex {
+      .item {
+        h2 { font-size: 3rem; }
+        p { font-size: 1.8rem; }
       }
     }
   }
@@ -144,6 +152,7 @@ img {
     margin-right: auto;
     max-width: 100%;
   }
+
   p {
     margin-left: auto;
     margin-right: auto;
@@ -153,8 +162,6 @@ img {
   .button { margin-top: 2%; }
 
   @media screen and (min-width: 960px) {
-    display: flex;
-    min-height: 100vh;
     padding-top: 20rem;
     padding-bottom: 20rem;
     h1 { font-size: 8rem; }
@@ -164,10 +171,14 @@ img {
     }
   }
 
+  @media screen and (min-width: 400px) {
+    h1 {font-size: 5rem; }
+    p { font-size: 2rem; }
+  }
 }
 
 section {
-  padding: 8rem;
+  padding: 4rem;
   padding-top: 15rem;
   padding-bottom: 15rem;
 
@@ -178,6 +189,10 @@ section {
   &.people {
     p { color: $purple-primary;}
     padding-bottom: 5rem;
+  }
+
+  @media screen and (min-width: 960px) {
+    padding: 8rem;
   }
 }
 
