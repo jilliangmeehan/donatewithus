@@ -84,6 +84,7 @@ img {
     .item {
 
       &.bio {
+        margin-top: 5rem;
         text-align: left;
         font-size: 1.7rem;
       }
@@ -170,11 +171,11 @@ section {
   padding: 5rem;
 
   &.profile {
-    padding-bottom: 20rem;
+    padding-bottom: 5rem;
   }
 
   &.donations {
-    padding-top: 20rem;
+    padding-top: 5rem;
     background-color: $purple-secondary;
     text-align: left;
   }
