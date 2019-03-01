@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Donate with us</title>
+  <title>{{page_title}}</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <link href="https://fonts.googleapis.com/css?family=Work+Sans:400,600,800" rel="stylesheet">
@@ -9,10 +9,10 @@
 </head>
 <body>
   <header class="header">
-    <h1>Donate with us</h1>
+    <h1>{{header_title}}</h1>
     <div class="container">
-      <p>Hi there! We're donating some money to organizations we care about every month. Wanna help? 👇</p>
-      <p><a href="#page-anchor" class="button">help us donate!</a></p>
+      <p>{{header_text}}</p>
+      <p><a href="#page-anchor" class="button">{{header_button_text}}</a></p>
     </div>
   </header>
 
@@ -20,8 +20,8 @@
     <div class="container flex">
       {{#section about multiple=true sortable=true}}
       <div class="item">
-        <h2>{{header}}</h2>
-        <p>{{text long=true}}</p>
+        <h2>{{about_header}}</h2>
+        <p>{{about_text long=true}}</p>
       </div>
       {{/section}}
     </div>
@@ -34,7 +34,7 @@
         {{avatar type=image width=100 height=100}}
         <div class="info">
           <p class="name">{{name}}</p>
-          <a href="{{url}}">help me donate →</a>
+          <a href="/people/{{name}}.html">help me donate →</a>
         </div>
       </div>
     {{/section}}
@@ -43,8 +43,8 @@
 
   <footer>
     <div class="container">
-      <p><small>👋 Want to set up your own profile to donate? Get in touch!</small></p>
-      <p><a href="" class="button">join us!</a></p>
+      <p><small>{{footer_text large="true"}}</small></p>
+      <p><a href="{{footer_button_url}}" class="button">{{footer_button_text}}</a></p>
     </div>
   </footer>
 

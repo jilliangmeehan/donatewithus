@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Donate with us</title>
+  <title>{{page_title}}</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <link href="https://fonts.googleapis.com/css?family=Work+Sans:400,600,800" rel="stylesheet">
@@ -9,7 +9,7 @@
 </head>
 <body>
   <header class="header" id="page-anchor">
-    <h1><a href="/index">← Help us donate</a></h1>
+    <h1><a href="/index">← {{header_title}}</a></h1>
   </header>
 
   {{#section profile label="Jillian/Profile"}}
@@ -19,14 +19,14 @@
         {{avatar type=image width=200 height=200}}
       </div>
       <div class="item bio">
-        <h4>Hi, I'm <a href="{{url}}">{{name}}</a></h4>
-        <p><small>{{bio type=text large=true}}</small></p>
+        <h4>Hi, I'm <a href="{{social_link}}">{{name}}</a></h4>
+        <p><small>{{bio type=text long=true}}</small></p>
         <p><small>Scroll down to see my past donations.</small></p>
         <h3>donating to</h3>
-        <p>{{donating-to}}</p>
+        <p><a class="affiliate" href="{{organization_link}}">{{currently_donating_to}} →</a></p>
         <h3>shop with me</h3>
         {{#section links label="Jillian/Links" multiple=true}}
-        <p><a  class="affiliate" href="{{url}}">{{link title}} →</a></p>
+        <p><a  class="affiliate" href="{{link}}">{{link_title}} →</a></p>
         {{/section}}
     </div>
   </div>
@@ -38,8 +38,8 @@
     {{#section donations label="Jillian/Donations" multiple=true}}
       <div class="item donation">
         <p class="date">{{date}}</p>
-        <p><a href="{{url}}" class="org">{{organization}}</a></p>
-        <p class="donation-amount">${{donation type=number}}</p>
+        <p><a href="{{organization_link}}" class="org">{{organization}}</a></p>
+        <p class="donation-amount">${{donation_amount type=number}}</p>
       </div>
       {{/section}}
     </div>
