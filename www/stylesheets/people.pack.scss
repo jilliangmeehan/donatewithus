@@ -161,9 +161,10 @@ img {
 }
 
 .header {
-  margin: 2rem;
+  margin-left: 2rem;
   flex-direction: column;
   text-align: left;
+  padding-top: 2rem;
   padding-bottom: 5rem;
   h1 { font-size: 2rem; }
 }
