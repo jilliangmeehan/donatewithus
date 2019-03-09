@@ -76,6 +76,8 @@ img {
         .info {
           text-align: center;
           a { font-size: 1.3rem; }
+
+          .name { text-transform: capitalize; }
         }
       }
     }
