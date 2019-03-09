@@ -1,11 +1,13 @@
 {
   "name": "folder",
   "vapid": {
+    "site": "de5f75b5-0e7b-483f-9a6a-06bf842f73f6"
   },
   "scripts": {
     "start": "vapid start ."
   },
   "dependencies": {
+    "vapid": "^0.7.4",
     "vapid-cli": "^0.3.5"
   }
 }
