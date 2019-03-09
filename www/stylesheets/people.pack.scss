@@ -32,7 +32,7 @@ a {
     color: darken($purple-primary, 10%);
   }
 
-  &.affiliate, &.org {
+  &.org {
     color: black;
 
     &:hover {
@@ -43,8 +43,6 @@ a {
 
 p {
   margin: 1.5rem 0;
-  line-height: 1em;
-  padding-bottom: 1rem;
 }
 
 h1 {
@@ -53,13 +51,11 @@ h1 {
 }
 
 h3 {
-  font-weight: 600;
-  line-height: 0.5em;
+  font-weight: 400;
 }
 
 h4 {
-  font-weight: 400;
-  line-height: 0.5em;
+  font-weight: 600;
 }
 
 img {
@@ -78,6 +74,8 @@ img {
   width: 100%;
   margin: 0 auto;
 
+  &.centered { text-align: center; }
+
   &.flex {
     display: flex;
     flex-direction: column;
@@ -85,6 +83,8 @@ img {
     .item {
 
       &.bio {
+        h3 { font-size: 2rem; }
+        h4 { font-size: 3.2rem; }
         margin-top: 5rem;
         text-align: left;
         font-size: 1.7rem;
@@ -92,7 +92,10 @@ img {
 
       &.donation {
         margin-top: 3rem;
-        p { line-height: 0.2rem; }
+        p {
+          line-height: 0.5em;
+          padding-bottom: 1rem;
+         }
 
         .date {
           color: $purple-primary;
@@ -115,22 +118,24 @@ img {
   @media screen and (min-width: 400px) {
     &.flex {
       flex-direction: row;
-      justify-content: space-around;
       flex-wrap: wrap;
       text-align: center;
+
+      &.profile { justify-content: center; }
+      &.donations { justify-content: space-around; }
 
       .item {
         margin-left: 2rem;
         margin-right: 2rem;
 
         &.bio {
-          h3 { font-size: 2.5rem; }
-          h4 { font-size: 3rem; }
-          p {font-size: 2rem; }
+          h3 { font-size: 2.3rem; }
+          h4 { font-size: 3.5rem; }
+          p {font-size: 1.8rem; }
           text-align: left;
           font-size: 2rem;
           margin-top: 5rem;
-          max-width: 500px;
+          max-width: 450px;
         }
 
         &.avatar {
@@ -144,6 +149,7 @@ img {
 }
 
 .button {
+  margin-top: 10rem;
   display: inline-block;
   padding: 1.2rem 3.3rem;
   text-transform: lowercase;
@@ -157,6 +163,25 @@ img {
   &:hover {
     color: white;
     background-color: darken($purple-primary, 10%);
+  }
+
+  &.affiliate {
+    width: 17rem;
+    text-align: center;
+    font-weight: 600;
+    text-transform: capitalize;
+    color: $purple-primary;
+    background-color: white;
+    border: solid $purple-primary 2px;
+    margin-top: 1.5rem;
+    margin-right: 1rem;
+    display: inline;
+    float: left;
+
+    &:hover {
+      color: white;
+      background-color: $purple-primary;
+    }
   }
 }
 
@@ -173,18 +198,16 @@ section {
   padding: 5rem;
 
   &.profile {
-    padding-bottom: 5rem;
+    padding-top: 10%;
+    padding-bottom: 15%;
   }
 
   &.donations {
-    padding-top: 5rem;
+    padding-top: 10%;
+    padding-bottom: 10rem;
     background-color: $purple-secondary;
     text-align: left;
+    bottom: 0;
+    width: 100%;
   }
-}
-
-footer {
-  background-color: $purple-secondary;
-  height: 100%;
-  padding: 8rem;
 }

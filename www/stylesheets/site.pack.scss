@@ -81,6 +81,15 @@ img {
     }
   }
 
+  @media screen and (min-width: 400px) {
+    &.flex {
+      .item {
+        h2 { font-size: 3rem; }
+        p { font-size: 1.8rem; }
+      }
+    }
+  }
+
   @media screen and (min-width: 960px) {
     &.flex {
       flex-direction: row;
@@ -88,11 +97,11 @@ img {
       max-width: 100%;
 
       .item {
-        max-width: 420px;
+        max-width: 480px;
         margin-left: 2rem;
         margin-right: 2rem;
-        h2 { font-size: 3.2rem; }
-        p { font-size: 1.8rem; }
+        h2 { font-size: 4.2rem; }
+        p { font-size: 2rem; }
 
         &.people {
           flex-direction: row;
@@ -104,15 +113,6 @@ img {
             text-align: left;
           }
         }
-      }
-    }
-  }
-
-  @media screen and (min-width: 400px) {
-    &.flex {
-      .item {
-        h2 { font-size: 3rem; }
-        p { font-size: 1.8rem; }
       }
     }
   }
@@ -137,8 +137,8 @@ img {
 
 .header {
   padding: 5rem 5rem;
-  padding-top: 20rem;
-  padding-bottom: 20rem;
+  padding-top: 22rem;
+  padding-bottom: 22rem;
   flex-direction: column;
   justify-content: center;
 
@@ -147,7 +147,7 @@ img {
     flex-direction: column;
     flex: 1;
     justify-content: center;
-    font-size: 3rem;
+    font-size: 4.2rem;
     width: 1350px;
     margin-left: auto;
     margin-right: auto;
@@ -162,19 +162,21 @@ img {
 
   .button { margin-top: 2%; }
 
-  @media screen and (min-width: 960px) {
-    padding-top: 20rem;
-    padding-bottom: 20rem;
-    h1 { font-size: 8rem; }
-    p {
-      max-width: 50%;
-      font-size: 2.2rem;
-    }
+  @media screen and (min-width: 400px) {
+    padding-top: 50%;
+    padding-bottom: 53%;
+    h1 {font-size: 6.5rem; }
+    p { font-size: 2rem; }
   }
 
-  @media screen and (min-width: 400px) {
-    h1 {font-size: 5rem; }
-    p { font-size: 2rem; }
+  @media screen and (min-width: 960px) {
+    padding-top: 15%;
+    padding-bottom: 23%;
+    h1 { font-size: 10rem; }
+    p {
+      max-width: 50%;
+      font-size: 3rem;
+    }
   }
 }
 
@@ -194,6 +196,8 @@ section {
 
   @media screen and (min-width: 960px) {
     padding: 8rem;
+    padding-top: 15%;
+    padding-bottom: 15%;
   }
 }
 

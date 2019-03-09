@@ -14,27 +14,24 @@
 
   {{#section profile label="Jillian/Profile"}}
   <section class="profile">
-    <div class="container flex">
+    <div class="container flex profile">
       <div class="item avatar">
         {{avatar type=image width=200 height=200}}
       </div>
       <div class="item bio">
         <h4>Hi, I'm <a href="{{social_link}}">{{name}}</a></h4>
-        <p><small>{{bio type=text long=true}}</small></p>
-        <p><small>Scroll down to see my past donations.</small></p>
-        <h3>donating to</h3>
-        <p><a class="affiliate" href="{{organization_link}}">{{currently_donating_to}} →</a></p>
-        <h3>shop with me</h3>
-        {{#section links label="Jillian/Links" multiple=true}}
-        <p><a  class="affiliate" href="{{link}}">{{link_title}} →</a></p>
+        <h3>I'm donating to <a href="{{organization_link}}">{{currently_donating_to}}</a></h3>
+        <p><small>Shop with me using the affiliate links below, and I'll donate 100% of the commission I make. Scroll down to see my past donations!</small></p>
+        {{/section}}
+        {{#section links label="Jillian/Links" multiple=true sortable=true}}
+        <p><a class="button affiliate" href="{{link}}">{{link_title}}</a></p>
         {{/section}}
     </div>
   </div>
-  {{/section}}
   </section>
 
   <section class="donations">
-    <div class="container flex">
+    <div class="container flex donations">
     {{#section donations label="Jillian/Donations" multiple=true}}
       <div class="item donation">
         <p class="date">{{date}}</p>
@@ -43,11 +40,10 @@
       </div>
       {{/section}}
     </div>
+    <div class="container centered">
+      <p><a href="#page-anchor" class="button">help me donate!</a></p>
+    </div>
   </section>
-
-  <footer>
-    <p><a href="#page-anchor" class="button">help me donate!</a></p>
-  </footer>
 
   <script src="/javascripts/site.js"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
