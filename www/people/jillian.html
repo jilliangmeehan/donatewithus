@@ -12,7 +12,7 @@
     <h1><a href="/index">← {{header_title}}</a></h1>
   </header>
 
-  {{#section profile label="Jillian/Profile"}}
+  {{#section jillian_profile label="Jillian/Profile"}}
   <section class="profile">
     <div class="container flex profile">
       <div class="item avatar">
@@ -23,7 +23,7 @@
         <h3>I'm donating to <a href="{{organization_link}}">{{currently_donating_to}}</a></h3>
         <p><small>Shop with me using the affiliate links below, and I'll donate 100% of the commission I make. Scroll down to see my past donations!</small></p>
         {{/section}}
-        {{#section links label="Jillian/Links" multiple=true sortable=true}}
+        {{#section jillian_links label="Jillian/Links" multiple=true sortable=true}}
         <p><a class="button affiliate" href="{{link}}">{{link_title}}</a></p>
         {{/section}}
     </div>
@@ -32,7 +32,7 @@
 
   <section class="donations">
     <div class="container flex donations">
-    {{#section donations label="Jillian/Donations" multiple=true}}
+    {{#section jillian_donations label="Jillian/Donations" multiple=true}}
       <div class="item donation">
         <p class="date">{{date}}</p>
         <p><a href="{{organization_link}}" class="org">{{organization}}</a></p>
