@@ -165,8 +165,8 @@ img {
   .button { margin-top: 2%; }
 
   @media screen and (min-width: 400px) {
-    padding-top: 50%;
-    padding-bottom: 53%;
+    padding-top: 30%;
+    padding-bottom: 33%;
     h1 {font-size: 6.5rem; }
     p { font-size: 2rem; }
   }
@@ -200,40 +200,6 @@ section {
     padding: 8rem;
     padding-top: 15%;
     padding-bottom: 15%;
-  }
-}
-
-form {
-  text-align: left;
-  font-size: 1.8rem;
-
-  .field {
-    margin-bottom: 2rem;
-  }
-
-  label {
-    display: block;
-    font-weight: 800;
-    margin-bottom: 0.5rem;
-  }
-
-  input,
-  textarea {
-    font-family: inherit;
-    font-size: inherit;
-  }
-
-  input:not([type=submit]),
-  textarea {
-    width: 100%;
-    padding: 1rem;
-    color: #04092E;
-    border: 1px solid #04092E;
-    outline: 0;
-  }
-
-  textarea {
-    height: 12rem;
   }
 }
 
