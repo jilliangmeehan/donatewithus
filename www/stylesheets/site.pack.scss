@@ -61,6 +61,7 @@ img {
   &.flex {
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
     max-width: 400px;
 
     .item {
