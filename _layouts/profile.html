@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>{{ page.title }}</title>
+    <meta description={{ page.description }}>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    {% include social.html %}
+    {% include favicon.html %}
+    {% include fathom.html %}
+
+    <link rel="stylesheet" href="assets/css/profile.css">
+    <link href="https://fonts.googleapis.com/css?family=Work+Sans:400,600,800&display=swap" rel="stylesheet">
+
+  </head>
+  <body>
+    <header>
+      <h1><a href="/">{{ page.title }}</a></h1>
+    </header>
+
+    <div class="column-layout">
+      {% assign person = site.data.people[page.id] %}
+      <section class="item bio">
+        <div class="container">
+          <img src="{{ person.img }}" alt="Avatar" class="avatar">
+          <p class="semibold">👋 Hi, I'm <a href="{{ person.url }}">{{ person.name }}</a></p>
+          <p>I'm donating to <br><a class="semibold" href="{{ person.organization_url }}">{{ person.organization }}</a></p>
+          <p class="small">Shop with me using my affiliate links below, and I'll donate 100% of the commission I make.</p>
+          {% for item in person.links %}
+          <a href="{{ item.url }}" class="button">{{ item.title }}</a>
+          {% endfor %}
+        </div>
+      </section>
+
+      <section class="item donations">
+        <div class="container total">
+          <p class="total semibold">{{ person.total }}</p>
+          <p class="small">Here's how much I've donated so far, thanks to people like you. 🙌</p>
+        </div>
+        <div class="container flex">
+          {% for item in person.donations %}
+          <div class="item">
+            <div class="donation-flex">
+              <div class="donation-item left">
+                <p class="date">{{ item.date }}</p>
+                <a class="semibold" href="{{ item.organization_url }}">{{ item.organization }}</a>
+              </div>
+              <div class="donation-item right">
+                <p class="amount">{{ item.amount }}</p>
+              </div>
+            </div>
+          </div>
+          {% endfor %}
+        </div>
+    </section>
+  </body>
+</html>

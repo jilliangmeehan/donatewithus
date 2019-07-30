@@ -1,0 +1,76 @@
+body { font-family: "Work Sans", sans-serif; font-size: 18px; font-weight: 18px; margin: 0 auto; text-align: center; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; scroll-behavior: smooth; background-repeat: no-repeat; background-size: cover; }
+
+section { padding: 3rem 3rem; padding-top: 30%; padding-bottom: 35%; }
+
+.container { width: 100%; margin: 0 auto; }
+.container.flex { width: 100%; margin: 0 auto; display: flex; flex-direction: column; flex-wrap: wrap; }
+.container.flex .item { margin-bottom: 35px; }
+
+a { color: #A585B5; text-decoration: none; transition: 0.1s linear; }
+a:hover { color: #bca5c8; }
+a.semibold { font-weight: 600; }
+
+.button { display: block; max-width: 150px; margin: 30px auto; text-decoration: none; border-radius: 30px; padding: 12px; font-size: 14px; font-weight: 600; color: white; transition: 0.1s linear; }
+
+p { color: #4D4352; margin: 10px auto 30px auto; line-height: 1.4em; max-width: 500px; }
+p.small { font-size: 14px; }
+p.semibold { font-weight: 600; }
+
+h1 { font-size: 36px; margin: 10px 0 10px 0; }
+
+h2 { font-size: 28px; margin: 10px 0 10px 0; }
+
+@media screen and (min-width: 500px) { section { padding: 5rem 5rem; padding-top: 25%; padding-bottom: 30%; }
+  h1 { font-size: 48px; }
+  h2 { font-size: 36px; } }
+@media screen and (min-width: 750px) { section { padding: 7rem 7rem; padding-top: 20%; padding-bottom: 20%; }
+  h1 { font-size: 72px; }
+  .container.flex { flex-direction: row; flex-wrap: wrap; justify-content: space-evenly; }
+  .container.flex .item { max-width: 400px; } }
+@media screen and (min-width: 1020px) { section { padding: 8rem 8rem; padding-top: 10%; padding-bottom: 10%; }
+  .container { max-width: 500px; margin: 0 auto; }
+  .container.flex { max-width: 100%; flex-direction: row; flex-wrap: wrap; justify-content: space-around; }
+  .container.flex .item { max-width: 360px; }
+  p { font-size: medium; } }
+.column-layout { display: flex; flex-direction: column; }
+
+header { margin: 10px 20px; text-align: left; position: absolute; z-index: 1; }
+header h1 { font-size: 18px; font-weight: 800; color: #A585B5; }
+
+section { padding: 3rem 3rem; padding-top: 15%; padding-bottom: 15%; }
+section.bio { background-color: white; }
+section.bio img { border-radius: 100%; border: solid 10px #CCC0D2; width: 100px; margin: 20px; }
+section.bio p { margin-bottom: 10px; max-width: 250px; }
+section.bio .button { width: 168px; margin: 15px auto; background-color: #A585B5; }
+section.bio .button:hover { color: white; background-color: #bca5c8; }
+section.donations { background-color: #E5E5E5; }
+section.donations p { margin: 0; }
+section.donations p.total { font-size: 72px; color: #A585B5; }
+section.donations p.date { text-transform: uppercase; font-size: 14px; }
+section.donations p.amount { font-size: 36px; }
+section.donations .total { max-width: 250px; text-align: center; margin: 0 auto; padding: 0; }
+section.donations .container.flex { margin-top: 66px; }
+section.donations .container.flex .item { text-align: left; }
+section.donations .container.flex .item.donation { margin: 0; }
+
+@media screen and (min-width: 750px) { .column-layout { width: 100%; height: 100%; position: absolute; flex-direction: row; wrap: nowrap; justify-content: center; align-items: center; }
+  header { position: fixed; }
+  section { padding: 0; width: 50%; margin: 0 auto; }
+  section.bio { overflow: hidden; }
+  section.bio img { width: 150px; border: solid 12px #CCC0D2; }
+  section.donations { flex: 1; overflow: auto; height: 100%; }
+  section.donations .amount { font-size: 36px; }
+  section.donations a { font-size: 14px; }
+  section.donations .container.total { margin: 10% auto; }
+  section.donations .container.flex { flex-direction: column; }
+  section.donations .container.flex .item { width: 100%; margin: 15px auto; }
+  section.donations .container.flex .item .donation-flex { display: flex; flex-direction: row-reverse; wrap: nowrap; }
+  section.donations .container.flex .item .donation-flex .donation-item { padding: 5px; width: 100%; margin: 0; }
+  section.donations .container.flex .item .donation-flex .donation-item.left { text-align: left; }
+  section.donations .container.flex .item .donation-flex .donation-item.right { text-align: right; } }
+@media screen and (min-width: 1020px) { section { padding: 0; }
+  section.bio p { max-width: 300px; font-size: large; }
+  section.donations a { font-size: 18px; }
+  section .container { max-width: 100%; margin: 0 auto; }
+  section .container.flex { max-width: 100%; margin: 0 auto; }
+  section .container.flex .item { max-width: 100%; } }

@@ -1,0 +1,116 @@
+.intro {
+  h1 { color: $dark-purple; }
+
+  .button {
+    max-width: 200px;
+    color: white;
+    background-color: $dark;
+    &:hover {
+      color: white;
+      background-color: lighten($dark, 10%);
+    }
+  }
+}
+
+.donation_total {
+  background-color: $light-purple;
+  margin: 0 auto;
+
+  .total {
+    color: $dark-purple;
+    font-size: $extra-large;
+    font-weight: $semi-bold;
+  }
+
+  @media screen and (min-width: 1020px) {
+    .total { font-size: $xxl; }
+  }
+}
+
+.info {
+  background-color: $dark;
+  p { color: $light-purple; }
+  .item { color: $light-purple; }
+}
+
+.people {
+  padding: 3rem 1.5rem;
+  padding-bottom: 0;
+
+  .card {
+    background-color: $light-purple;
+    border-radius: 20px;
+    padding: 20px 30px 50px 30px;
+    width: 250px;
+    margin: 25px auto 25px auto;
+
+    @media screen and (min-width: 1020px) {
+      padding: 20px 70px 50px 70px;
+    }
+  }
+
+  img {
+    border-radius: 100%;
+    border: solid 10px $medium-purple;
+    width: 100px;
+    margin: 20px;
+  }
+
+  p { margin: 5px 15px 30px 15px; }
+
+  .name {
+    font-weight: $semi-bold;
+    margin: 0;
+    padding: 0;
+  }
+
+  .button {
+    color: white;
+    background-color: $dark;
+
+    &:hover {
+      background-color: lighten($dark, 10%);
+    }
+  }
+
+}
+
+.join_us {
+  padding-top: 5%;
+  padding-bottom: 15%;
+  max-width: 250px;
+  margin: 0 auto;
+
+  p {
+    color: $dark;
+  }
+
+  .button {
+    color: white;
+    background-color: $dark-purple;
+
+    &:hover {
+      background-color: lighten($dark-purple, 10%);
+    }
+  }
+}
+
+.organizations {
+  background-color: $light-purple;
+
+  h2 {
+    color: $dark-purple;
+  }
+
+  p {
+    color: $dark;
+    font-size: $small;
+  }
+
+  img {
+    object-fit: contain;
+    max-width: 100%;
+    height: 45px;
+    margin: 20px;
+  }
+}

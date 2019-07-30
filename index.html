@@ -1,0 +1,66 @@
+---
+layout: home
+title: Give with us
+description: We're donating money to organizations we care about every month.
+image: assets/images/main_favicon.ico
+permalink: /
+---
+
+<!-- Intro -->
+{%
+  include intro.html
+  title="Give with us"
+  subtitle="We're donating some money to organizations we care about every month. Wanna help? 👇"
+  button_text="help us donate"
+%}
+
+<!-- Total Donation Amount -->
+{%
+  include donation_total.html
+  donation_total="$373.05"
+  subtitle="Here’s how much we’ve donated, thanks to people like you! Scroll down to learn how you can help us donate even more."
+%}
+
+<!-- Info -->
+<section class="info">
+  <div class="container flex">
+    {% for item in site.data.about %}
+    {% include info.html item=item %}
+    {% endfor %}
+  </div>
+</section>
+
+<!-- People Directory -->
+<section class="people" id="directory">
+  <div class="container flex">
+    {% for item in site.data.people %}
+    {% include people.html item=item%}
+    {% endfor %}
+  </div>
+</section>
+
+<!-- Join Us Button -->
+{%
+  include join_us.html
+  subtitle="👋 Want to set up your own profile
+  to donate? Get in touch."
+  button_text="join us!"
+  button_url="https://makingcoolstuff.typeform.com/to/nhgT2U"
+%}
+
+<!-- Organizations We've Donated To -->
+{%
+  include organizations.html
+  title="where we donate"
+  subtitle="Here are just a few of the organizations we've donated to. Check back every month to see where you can help us donate!"
+%}
+
+<!-- Footer
+{%
+  include footer.html
+  title="Give with us"
+  link1="💌 Contact us"
+  link1_url="/contact"
+  link2="👆 Go back up"
+  link2_url="#"
+%} -->

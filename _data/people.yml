@@ -1,0 +1,194 @@
+- Jillian:
+  name: Jillian
+  url: https://jillianmeehan.com
+  id: 0
+  img: assets/images/jillian_favicon.ico
+  organization: RAICES
+  organization_url: https://www.raicestexas.org/
+  total: $214.82
+  links:
+   - title: Glossier
+     url: https://glossier.com/reps/jillian
+   - title: Mejuri
+     url: http://crew.mejuri.com/jgm
+  donations:
+   - amount: $24.87
+     date: june 2019
+     organization: The Trevor Project
+     organization_url: https://www.thetrevorproject.org/
+   - amount: $8.52
+     date: may 2019
+     organization: Yellowhammer Fund
+     organization_url: https://yellowhammerfund.org/
+   - amount: $22.13
+     date: april 2019
+     organization: Girls Inc
+     organization_url: https://girlsinc.org/
+   - amount: $34.53
+     date: march 2019
+     organization: The Human Utility
+     organization_url: https://www.detroitwaterproject.org/
+   - amount: $8.62
+     date: dec 2018
+     organization: No Kid Hungry
+     organization_url: https://www.nokidhungry.org/
+   - amount: $79.09
+     date: nov 2018
+     organization: NYAAF
+     organization_url: https://www.nyaaf.org/
+   - amount: $7.93
+     date: oct 2018
+     organization: RAINN
+     organization_url: https://www.rainn.org/
+   - amount: $10.79
+     date: sept 2018
+     organization: The Doula Project
+     organization_url: http://www.doulaproject.org/
+   - amount: $18.34
+     date: aug 2018
+     organization: Border Angels
+     organization_url: https://www.borderangels.org/
+
+- Natalie:
+  name: Natalie
+  url: https://www.instagram.com/fracturedaesthetic/
+  id: 1
+  img: assets/images/natalie_favicon.ico
+  organization: Sylvia Rivera Law Project
+  organization_url: https://srlp.org/
+  total: $25.96
+  links:
+   - title: Glossier
+     url: http://www.glossier.com/reps/nataliegeisel
+  donations:
+   - amount: $4.97
+     date: june 2019
+     organization: Yellowhammer Fund
+     organization_url: https://yellowhammerfund.org/
+   - amount: $10.00
+     date: may 2019
+     organization: Yellowhammer Fund
+     organization_url: https://yellowhammerfund.org/
+   - amount: $1.44
+     date: april 2019
+     organization: Ali Forney Center
+     organization_url: https://www.aliforneycenter.org/
+   - amount: $9.55
+     date: march 2019
+     organization: Ali Forney Center
+     organization_url: https://www.aliforneycenter.org/
+
+- Nora:
+  name: Nora
+  url: https://instagram.com/norahenick
+  id: 2
+  img: assets/images/nora_favicon.ico
+  organization: To Write Love On Her Arms
+  organization_url: https://twloha.com/
+  total: $43.04
+  links:
+   - title: Glossier
+     url: https://glossier.com/reps/nora
+  donations:
+   - amount: $15.00
+     date: june 2019
+     organization: Planned Parenthood
+     organization_url: https://www.plannedparenthood.org/
+   - amount: $21.00
+     date: may 2019
+     organization: Yellowhammer Fund
+     organization_url: https://yellowhammerfund.org/
+   - amount: $7.04
+     date: april 2019
+     organization: Girls Who Code
+     organization_url: https://girlswhocode.com/
+
+- Gabrielle:
+  name: Gabrielle
+  url: https://instagram.com/gabriellerizzo
+  id: 3
+  img: assets/images/gabrielle_favicon.ico
+  organization: Yellowhammer Fund
+  organization_url: https://yellowhammerfund.org/
+  total: $69.23
+  links:
+   - title: Glossier
+     url: https://glossier.com/reps/gabriellerizzo
+   - title: Mejuri
+     url: https://www.crew.mejuri.com/gabriellerizzo
+   - title: Amika
+     url: https://loveamika.com/?cn=&rfsn=2151376.fb64f2&utm_source=refersion&utm_medium=affiliate&utm_campaign=2151376.fb64f2
+  donations:
+    - amount: $50.00
+      date: may 2019
+      organization: Yellowhammer Fund
+      organization_url: https://yellowhammerfund.org/
+    - amount: $19.23
+      date: april 2019
+      organization: Planned Parenthood
+      organization_url: https://www.plannedparenthood.org/
+
+- Molly:
+  name: Molly
+  url: https://www.instagram.com/mollify/
+  id: 4
+  img: assets/images/molly_favicon.ico
+  organization: RAICES
+  organization_url: https://www.raicestexas.org/
+  total: $20
+  links:
+   - title: Glossier
+     url: https://www.glossier.com/reps/
+  donations:
+   - amount: $10.00
+     date: june 2019
+     organization: Planned Parenthood
+     organization_url: https://www.plannedparenthood.org/
+   - amount: $10.00
+     date: may 2019
+     organization: Yellowhammer Fund
+     organization_url: https://yellowhammerfund.org/
+
+- Gaby:
+  name: Gaby
+  url: https://www.instagram.com/lamodedujour/
+  id: 5
+  img: assets/images/gaby_favicon.ico
+  organization: Yellowhammer Fund
+  organization_url: https://yellowhammerfund.org/
+  total: $
+  links:
+   - title: Mejuri
+     url: http://edit.mejuri.com/gabyazorsky
+   - title: Golde
+     url: http://golde.co/lamodedujour
+
+- Anna:
+  name: Anna
+  url: https://instagram.com/annathropology
+  id: 6
+  img: assets/images/anna_favicon.ico
+  organization: ARL Iowa
+  organization_url: https://www.arl-iowa.org/
+  total: $
+  links:
+   - title: Glossier
+     url: http://glossier.com/reps/annaputney
+   - title: Amika
+     url: https://loveamika.com/?cn=&rfsn=2050561.acc76&utm_source=refersion&utm_medium=affiliate&utm_campaign=2050561.acc76
+   - title: Red Earth
+     url: http://lddy.no/5m8t
+
+- Alex:
+  name: Alex
+  url: https://www.instagram.com/alexlucke/
+  id: 7
+  img: assets/images/alex_favicon.ico
+  organization: RAICES
+  organization_url: https://www.raicestexas.org/
+  total: $
+  links:
+   - title: Mejuri
+     url: https://mejuri.com/?campaignid=32882&mbsy_source=97ccbbbd-340b-4ecf-8b79-a9b6b75de4c5&mbsy_exp=2019-07-05+20%3A00%3A34.996030&mbsy=alex
+   - title: Parade
+     url: https://yourparade.com/?share=xlLwnv

@@ -1,0 +1,144 @@
+body {
+  font-family: $sans-serif;
+  font-size: $regular;
+  font-weight: $regular;
+  margin: 0 auto;
+  text-align: center;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  scroll-behavior: smooth;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+section {
+  padding: 3rem 3rem;
+  padding-top: 30%;
+  padding-bottom: 35%;
+}
+
+.container {
+  width: 100%;
+  margin: 0 auto;
+
+  &.flex {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+
+    .item {
+      margin-bottom: 35px;
+    }
+  }
+}
+
+a {
+  color: $dark-purple;
+  text-decoration: none;
+  transition: 0.1s linear;
+
+  &:hover {
+    color: lighten($dark-purple, 10%);
+  }
+
+  &.semibold {
+    font-weight: $semi-bold;
+  }
+}
+
+.button {
+  display: block;
+  max-width: 150px;
+  margin: 30px auto;
+  text-decoration: none;
+  border-radius: 30px;
+  padding: 12px;
+  font-size: $small;
+  font-weight: $semi-bold;
+  color: white;
+  transition: 0.1s linear;
+}
+
+p {
+  color: $dark;
+  margin: 10px auto 30px auto;
+  line-height: 1.4em;
+  max-width: 500px;
+
+  &.small {
+    font-size: $small;
+  }
+
+  &.semibold {
+    font-weight: $semi-bold;
+  }
+}
+
+h1 {
+  font-size: $medium-large;
+  margin: 10px 0 10px 0;
+}
+
+h2 {
+  font-size: $medium;
+  margin: 10px 0 10px 0;
+}
+
+@media screen and (min-width: 500px) {
+  section {
+    padding: 5rem 5rem;
+    padding-top: 25%;
+    padding-bottom: 30%;
+  }
+
+  h1 { font-size: $large; }
+  h2 { font-size: $medium-large; }
+}
+
+@media screen and (min-width: 750px) {
+  section {
+    padding: 7rem 7rem;
+    padding-top: 20%;
+    padding-bottom: 20%;
+  }
+
+  h1 { font-size: $extra-large; }
+
+  .container {
+    &.flex {
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: space-evenly;
+
+      .item { max-width: 400px; }
+    }
+  }
+}
+
+@media screen and (min-width: 1020px) {
+  section {
+    padding: 8rem 8rem;
+    padding-top: 10%;
+    padding-bottom: 10%;
+  }
+
+  .container {
+    max-width: 500px;
+    margin: 0 auto;
+
+    &.flex {
+      max-width: 100%;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: space-around;
+
+      .item {
+        max-width: 360px;
+      }
+    }
+  }
+
+  p { font-size: medium; }
+}
