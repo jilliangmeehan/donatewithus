@@ -4,7 +4,7 @@
   <p class="small">
     I'm donating to<br> <a href="{{ include.item.organization_url }}">{{ include.item.organization }}</a>
   </p>
-  <a href="/{{ include.item.name }}" class="button">
+  <a href="/{{ include.item.name | downcase }}" class="button">
     shop with me
   </a>
 </div>
