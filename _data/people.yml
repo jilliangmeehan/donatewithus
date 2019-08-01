@@ -94,10 +94,10 @@
    - title: Glossier
      url: https://glossier.com/reps/nora
   donations:
-   -amount: $11.11
-    date: july 2019
-    organization: TWLOAH
-    organization_url: https://twloha.com/
+   - amount: $11.11
+     date: july 2019
+     organization: TWLOAH
+     organization_url: https://twloha.com/
    - amount: $15.00
      date: june 2019
      organization: Planned Parenthood
