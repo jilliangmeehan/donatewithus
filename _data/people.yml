@@ -3,7 +3,7 @@
   url: https://jillianmeehan.com
   id: 0
   img: assets/images/jillian_favicon.ico
-  organization: Trans Lifeline 
+  organization: Trans Lifeline
   organization_url: https://translifeline.org
   total: $238.95
   links:
@@ -89,11 +89,15 @@
   img: assets/images/nora_favicon.ico
   organization: To Write Love On Her Arms
   organization_url: https://twloha.com/
-  total: $43.04
+  total: $54.15
   links:
    - title: Glossier
      url: https://glossier.com/reps/nora
   donations:
+   -amount: $11.11
+    date: july 2019
+    organization: TWLOAH
+    organization_url: https://twloha.com/
    - amount: $15.00
      date: june 2019
      organization: Planned Parenthood
