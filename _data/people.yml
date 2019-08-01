@@ -3,15 +3,19 @@
   url: https://jillianmeehan.com
   id: 0
   img: assets/images/jillian_favicon.ico
-  organization: RAICES
-  organization_url: https://www.raicestexas.org/
-  total: $214.82
+  organization: Trans Lifeline 
+  organization_url: https://translifeline.org
+  total: $238.95
   links:
    - title: Glossier
      url: https://glossier.com/reps/jillian
    - title: Mejuri
      url: http://crew.mejuri.com/jgm
   donations:
+   - amount: $24.13
+     date: july 2019
+     organization: RAICES
+     organization_url: https://www.raicestexas.org/
    - amount: $24.87
      date: june 2019
      organization: The Trevor Project
