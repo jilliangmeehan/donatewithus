@@ -148,6 +148,10 @@
    - title: Glossier
      url: https://www.glossier.com/reps/
   donations:
+   - amount: $11.40
+     date: july 2019
+     organization: RAICES
+     organization_url: https://www.raicestexas.org/
    - amount: $10.00
      date: june 2019
      organization: Planned Parenthood
