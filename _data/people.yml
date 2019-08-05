@@ -184,8 +184,8 @@
   url: https://instagram.com/annathropology
   id: 6
   img: assets/images/anna_favicon.ico
-  organization: ARL Iowa
-  organization_url: https://www.arl-iowa.org/
+  organization: MSPCA
+  organization_url: https://www.mspca.org
   total: $
   links:
    - title: Glossier
@@ -194,6 +194,12 @@
      url: https://loveamika.com/?cn=&rfsn=2050561.acc76&utm_source=refersion&utm_medium=affiliate&utm_campaign=2050561.acc76
    - title: Red Earth
      url: http://lddy.no/5m8t
+  donations:
+   - amount: $27.66
+     date: july 2019
+     organization: ARL Iowa
+     organization_url: https://www.arl-iowa.org/
+
 
 - Alex:
   name: Alex
