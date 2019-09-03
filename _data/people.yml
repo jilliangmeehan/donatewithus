@@ -3,15 +3,19 @@
   url: https://jillianmeehan.com
   id: 0
   img: assets/images/jillian_favicon.ico
-  organization: Trans Lifeline
-  organization_url: https://translifeline.org
-  total: $238.95
+  organization: One Tree Planted
+  organization_url: https://onetreeplanted.org
+  total: $253.57
   links:
    - title: Glossier
      url: https://glossier.com/reps/jillian
    - title: Mejuri
      url: http://crew.mejuri.com/jgm
   donations:
+   - amount: $14.62
+     date: august 2019
+     organization: Trans Lifeline
+     organization_url: https://translifeline.org
    - amount: $24.13
      date: july 2019
      organization: RAICES
@@ -58,13 +62,17 @@
   url: https://www.instagram.com/fracturedaesthetic/
   id: 1
   img: assets/images/natalie_favicon.ico
-  organization: Sylvia Rivera Law Project
-  organization_url: https://srlp.org/
-  total: $38.08
+  organization: The Trevor Project
+  organization_url: http://www.thetrevorproject.org
+  total: $47.75
   links:
    - title: Glossier
      url: http://www.glossier.com/reps/nataliegeisel
   donations:
+   - amount: $9.67
+     date: august 2019
+     organization: Sylvia Rivera Law Project
+     organization_url: https://srlp.org/
    - amount: $12.12
      date: july 2019
      organization: Sylvia Rivera Law Project
@@ -199,7 +207,6 @@
      date: july 2019
      organization: ARL Iowa
      organization_url: https://www.arl-iowa.org/
-
 
 - Alex:
   name: Alex
