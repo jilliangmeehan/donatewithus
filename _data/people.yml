@@ -13,7 +13,7 @@
      url: http://crew.mejuri.com/jgm
   donations:
    - amount: $14.62
-     date: august 2019
+     date: aug 2019
      organization: Trans Lifeline
      organization_url: https://translifeline.org
    - amount: $24.13
@@ -70,7 +70,7 @@
      url: http://www.glossier.com/reps/nataliegeisel
   donations:
    - amount: $9.67
-     date: august 2019
+     date: aug 2019
      organization: Sylvia Rivera Law Project
      organization_url: https://srlp.org/
    - amount: $12.12
@@ -155,11 +155,15 @@
   img: assets/images/molly_favicon.ico
   organization: RAICES
   organization_url: https://www.raicestexas.org/
-  total: $31.40
+  total: $41.40
   links:
    - title: Glossier
      url: https://www.glossier.com/reps/
   donations:
+   - amount: $10
+     date: aug 2019
+     organization: RAICES
+     organization_url: https://www.raicestexas.org/
    - amount: $11.40
      date: july 2019
      organization: RAICES
