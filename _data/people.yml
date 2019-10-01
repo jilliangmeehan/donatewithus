@@ -3,15 +3,19 @@
   url: https://jillianmeehan.com
   id: 0
   img: assets/images/jillian_favicon.ico
-  organization: One Tree Planted
-  organization_url: https://onetreeplanted.org
-  total: $253.57
+  organization: Breast Cancer Research Foundation
+  organization_url: https://www.bcrf.org
+  total: $265.77
   links:
    - title: Glossier
      url: https://glossier.com/reps/jillian
    - title: Mejuri
      url: http://crew.mejuri.com/jgm
   donations:
+   - amount: $12.20
+     date: sept 2019
+     organization: One Tree Planted
+     organization_url: https://onetreeplanted.org
    - amount: $14.62
      date: aug 2019
      organization: Trans Lifeline
