@@ -186,14 +186,19 @@
   url: https://www.instagram.com/lamodedujour/
   id: 5
   img: assets/images/gaby_favicon.ico
-  organization: Everytown
-  organization_url: https://everytown.org
-  total: $
+  organization: Earthjustice
+  organization_url: https://earthjustice.org
+  total: $12.89
   links:
    - title: Mejuri
      url: http://edit.mejuri.com/gabyazorsky
    - title: Golde
      url: http://golde.co/lamodedujour
+  donations:
+   - amount: $12.89
+     date: sept 2019
+     organization: Everytown
+     organization_url: https://everytown.org
 
 - Anna:
   name: Anna
