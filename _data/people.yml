@@ -68,11 +68,15 @@
   img: assets/images/natalie_favicon.ico
   organization: The Trevor Project
   organization_url: http://www.thetrevorproject.org
-  total: $47.75
+  total: $62.20
   links:
    - title: Glossier
      url: http://www.glossier.com/reps/nataliegeisel
   donations:
+   - amount: $14.45
+     date: sept 2019
+     organization: The Trevor Project
+     organization_url: http://www.thetrevorproject.org
    - amount: $9.67
      date: aug 2019
      organization: Sylvia Rivera Law Project
@@ -103,13 +107,17 @@
   url: https://instagram.com/norahenick
   id: 2
   img: assets/images/nora_favicon.ico
-  organization: American Foundation for Suicide Prevention
-  organization_url: https://afsp.org
-  total: $54.15
+  organization: The Andrew McDonough B+ Foundation
+  organization_url: https://beposfdn.org/bpos_partpage.aspx?eventtag=NYDM2019&teamid=2385&partid=72824
+  total: $64.15
   links:
    - title: Glossier
      url: https://glossier.com/reps/nora
   donations:
+   - amount: $10
+     date: sept 2019
+     organization: American Foundation for Suicide Prevention
+     organization_url: https://afsp.org
    - amount: $11.11
      date: july 2019
      organization: TWLOAH
@@ -157,13 +165,17 @@
   url: https://www.instagram.com/mollify/
   id: 4
   img: assets/images/molly_favicon.ico
-  organization: RAICES
-  organization_url: https://www.raicestexas.org/
-  total: $41.40
+  organization: Center for Climate and Energy Solutions
+  organization_url: https://www.c2es.org
+  total: $51.40
   links:
    - title: Glossier
      url: https://www.glossier.com/reps/mollyh
   donations:
+   - amount: $10
+     date: sept 2019
+     organization: RAICES
+     organization_url: https://www.raicestexas.org/
    - amount: $10
      date: aug 2019
      organization: RAICES
