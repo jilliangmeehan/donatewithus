@@ -26,7 +26,9 @@
         <div class="container">
           <img src="{{ person.img }}" alt="Avatar" class="avatar">
           <p class="semibold">👋 Hi, I'm <a href="{{ person.url }}">{{ person.name }}</a></p>
+          {% if person.organization %}
           <p>I'm donating to <br><a class="semibold" href="{{ person.organization_url }}">{{ person.organization }}</a></p>
+          {% endif %}
           <p class="small">Shop with me using my affiliate links below, and I'll donate 100% of the commission I make.</p>
           {% for item in person.links %}
           <a href="{{ item.url }}" class="button">{{ item.title }}</a>
