@@ -1,9 +1,11 @@
 <div class="card">
   <img src="{{ include.item.img }}" alt="Avatar" class="avatar">
   <p class="name">{{ include.item.name }}</p>
+  {% if include.item.organization %}
   <p class="small">
     I'm donating to<br> <a href="{{ include.item.organization_url }}">{{ include.item.organization }}</a>
   </p>
+  {% endif %}
   <a href="/{{ include.item.name | downcase }}" class="button">
     shop with me
   </a>
