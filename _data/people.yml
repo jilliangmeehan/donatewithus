@@ -76,11 +76,15 @@
   img: assets/images/natalie_favicon.ico
   organization: Trans Lifeline
   organization_url: https://www.translifeline.org
-  total: $69.66
+  total: $82.66
   links:
    - title: Glossier
      url: http://www.glossier.com/reps/nataliegeisel
   donations:
+   - amount: $13.00
+     date: nov 2019
+     organization: Trans Lifeline
+     organization_url: https://www.translifeline.org
    - amount: $7.46
      date: oct 2019
      organization: The Trevor Project
@@ -243,9 +247,9 @@
   url: https://instagram.com/annathropology
   id: 6
   img: assets/images/anna_favicon.ico
-  organization: MSPCA
-  organization_url: https://www.mspca.org
-  total: $27.66
+  organization: ARL Iowa
+  organization_url: https://www.arl-iowa.org/
+  total: $113.66
   links:
    - title: Glossier
      url: http://glossier.com/reps/annaputney
@@ -254,6 +258,10 @@
    - title: Red Earth
      url: http://lddy.no/5m8t
   donations:
+   - amount: $86.00
+     date: nov 2019
+     organization: ARL Iowa
+     organization_url: https://www.arl-iowa.org/
    - amount: $27.66
      date: july 2019
      organization: ARL Iowa
