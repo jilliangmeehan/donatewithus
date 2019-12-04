@@ -3,15 +3,23 @@
   url: https://jillianmeehan.com
   id: 0
   img: assets/images/jillian_favicon.ico
-  organization: Breast Cancer Research Foundation
-  organization_url: https://www.bcrf.org
-  total: $265.77
+  organization: NYAAF
+  organization_url: https://www.nyaaf.org/
+  total: $287.47
   links:
    - title: Glossier
      url: https://glossier.com/reps/jillian
    - title: Mejuri
      url: http://crew.mejuri.com/jgm
   donations:
+   - amount: $10.00
+     date: nov 2019
+     organization: NYAAF
+     organization_url: https://www.nyaaf.org/
+   - amount: $11.70
+     date: oct 2019
+     organization: Breast Cancer Research Foundation
+     organization_url: https://www.bcrf.org
    - amount: $12.20
      date: sept 2019
      organization: One Tree Planted
@@ -66,13 +74,21 @@
   url: https://www.instagram.com/fracturedaesthetic/
   id: 1
   img: assets/images/natalie_favicon.ico
-  organization: The Trevor Project
-  organization_url: http://www.thetrevorproject.org
-  total: $62.20
+  organization: Trans Lifeline
+  organization_url: https://www.translifeline.org
+  total: $82.66
   links:
    - title: Glossier
      url: http://www.glossier.com/reps/nataliegeisel
   donations:
+   - amount: $13.00
+     date: nov 2019
+     organization: Trans Lifeline
+     organization_url: https://www.translifeline.org
+   - amount: $7.46
+     date: oct 2019
+     organization: The Trevor Project
+     organization_url: http://www.thetrevorproject.org
    - amount: $14.45
      date: sept 2019
      organization: The Trevor Project
@@ -107,13 +123,15 @@
   url: https://instagram.com/norahenick
   id: 2
   img: assets/images/nora_favicon.ico
-  organization: The Andrew McDonough B+ Foundation
-  organization_url: https://beposfdn.org/bpos_partpage.aspx?eventtag=NYDM2019&teamid=2385&partid=72824
-  total: $64.15
+  total: $88.15
   links:
    - title: Glossier
      url: https://glossier.com/reps/nora
   donations:
+   - amount: $24
+     date: oct 2019
+     organization: The Andrew McDonough B+ Foundation
+     organization_url: https://beposfdn.org/bpos_partpage.aspx?eventtag=NYDM2019&teamid=2385&partid=72824
    - amount: $10
      date: sept 2019
      organization: American Foundation for Suicide Prevention
@@ -140,9 +158,9 @@
   url: https://instagram.com/gabriellerizzo
   id: 3
   img: assets/images/gabrielle_favicon.ico
-  organization: Yellowhammer Fund
-  organization_url: https://yellowhammerfund.org/
-  total: $69.23
+  organization: It Gets Better Project
+  organization_url: https://itgetsbetter.org
+  total: $103.68
   links:
    - title: Glossier
      url: https://glossier.com/reps/gabriellerizzo
@@ -151,6 +169,10 @@
    - title: Amika
      url: https://loveamika.com/?cn=&rfsn=2151376.fb64f2&utm_source=refersion&utm_medium=affiliate&utm_campaign=2151376.fb64f2
   donations:
+    - amount: $34.45
+      date: sept 2019
+      organization: Yellowhammer Fund
+      organization_url: https://yellowhammerfund.org/
     - amount: $50.00
       date: may 2019
       organization: Yellowhammer Fund
@@ -165,18 +187,26 @@
   url: https://www.instagram.com/mollify/
   id: 4
   img: assets/images/molly_favicon.ico
-  organization: Center for Climate and Energy Solutions
-  organization_url: https://www.c2es.org
-  total: $51.40
+  organization: Natural Resources Defense Council
+  organization_url: https://www.nrdc.org
+  total: $72.52
   links:
    - title: Glossier
      url: https://www.glossier.com/reps/mollyh
   donations:
-   - amount: $10
+   - amount: $10.00
+     date: nov 2019
+     organization: Natural Resources Defense Council
+     organization_url: https://www.nrdc.org
+   - amount: $11.12
+     date: oct 2019
+     organization: Center for Climate and Energy Solutions
+     organization_url: https://www.c2es.org
+   - amount: $10.00
      date: sept 2019
      organization: RAICES
      organization_url: https://www.raicestexas.org/
-   - amount: $10
+   - amount: $10.00
      date: aug 2019
      organization: RAICES
      organization_url: https://www.raicestexas.org/
@@ -217,9 +247,9 @@
   url: https://instagram.com/annathropology
   id: 6
   img: assets/images/anna_favicon.ico
-  organization: MSPCA
-  organization_url: https://www.mspca.org
-  total: $27.66
+  organization: ARL Iowa
+  organization_url: https://www.arl-iowa.org/
+  total: $113.66
   links:
    - title: Glossier
      url: http://glossier.com/reps/annaputney
@@ -228,6 +258,10 @@
    - title: Red Earth
      url: http://lddy.no/5m8t
   donations:
+   - amount: $86.00
+     date: nov 2019
+     organization: ARL Iowa
+     organization_url: https://www.arl-iowa.org/
    - amount: $27.66
      date: july 2019
      organization: ARL Iowa

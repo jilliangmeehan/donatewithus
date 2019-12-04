@@ -1,3 +1,4 @@
+{% if include.item.organization %}
 <div class="card">
   <img src="{{ include.item.img }}" alt="Avatar" class="avatar">
   <p class="name">{{ include.item.name }}</p>
@@ -8,3 +9,4 @@
     shop with me
   </a>
 </div>
+{% endif %}
