@@ -3,15 +3,19 @@
   url: https://jillianmeehan.com
   id: 0
   img: assets/images/jillian_favicon.ico
-  organization: NYAAF
-  organization_url: https://www.nyaaf.org/
-  total: $287.47
+  organization: NSW Rural Fire Service
+  organization_url: https://www.rfs.nsw.gov.au/volunteer/support-your-local-brigade
+  total: $301.61
   links:
    - title: Glossier
      url: https://glossier.com/reps/jillian
    - title: Mejuri
      url: http://crew.mejuri.com/jgm
   donations:
+   - amount: $14.14
+     date: dec 2019
+     organization: NYAAF
+     organization_url: https://www.nyaaf.org/
    - amount: $10.00
      date: nov 2019
      organization: NYAAF
@@ -187,13 +191,17 @@
   url: https://www.instagram.com/mollify/
   id: 4
   img: assets/images/molly_favicon.ico
-  organization: Natural Resources Defense Council
-  organization_url: https://www.nrdc.org
-  total: $72.52
+  organization: Red Cross Australia
+  organization_url: https://www.redcross.org.au
+  total: $82.52
   links:
    - title: Glossier
      url: https://www.glossier.com/reps/mollyh
   donations:
+   - amount: $10.00
+     date: dec 2019
+     organization: Natural Resources Defense Council
+     organization_url: https://www.nrdc.org
    - amount: $10.00
      date: nov 2019
      organization: Natural Resources Defense Council
