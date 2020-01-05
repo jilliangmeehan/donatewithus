@@ -255,9 +255,9 @@
   url: https://instagram.com/annathropology
   id: 6
   img: assets/images/anna_favicon.ico
-  organization: ARL Iowa
-  organization_url: https://www.arl-iowa.org/
-  total: $113.66
+  organization: MSPCA
+  organization_url: https://www.mspca.org
+  total: $169.66
   links:
    - title: Glossier
      url: http://glossier.com/reps/annaputney
@@ -266,6 +266,10 @@
    - title: Red Earth
      url: http://lddy.no/5m8t
   donations:
+   - amount: $56.00
+     date: dec 2019
+     organization: ARL Iowa
+     organization_url: https://www.arl-iowa.org/
    - amount: $86.00
      date: nov 2019
      organization: ARL Iowa
