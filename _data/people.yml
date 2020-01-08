@@ -78,13 +78,17 @@
   url: https://www.instagram.com/fracturedaesthetic/
   id: 1
   img: assets/images/natalie_favicon.ico
-  organization: Trans Lifeline
-  organization_url: https://www.translifeline.org
+  organization: NYAAF
+  organization_url: https://www.nyaaf.org
   total: $82.66
   links:
    - title: Glossier
      url: http://www.glossier.com/reps/nataliegeisel
   donations:
+   - amount: $10.00
+     date: dec 2019
+     organization: Trans Lifeline
+     organization_url: https://www.translifeline.org
    - amount: $13.00
      date: nov 2019
      organization: Trans Lifeline
@@ -162,8 +166,6 @@
   url: https://instagram.com/gabriellerizzo
   id: 3
   img: assets/images/gabrielle_favicon.ico
-  organization: It Gets Better Project
-  organization_url: https://itgetsbetter.org
   total: $103.68
   links:
    - title: Glossier
