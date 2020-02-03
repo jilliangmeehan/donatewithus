@@ -5,13 +5,17 @@
   img: assets/images/jillian_favicon.ico
   organization: NSW Rural Fire Service
   organization_url: https://www.rfs.nsw.gov.au/volunteer/support-your-local-brigade
-  total: $301.61
+  total: $311.61
   links:
    - title: Glossier
      url: https://glossier.com/reps/jillian
    - title: Mejuri
      url: http://crew.mejuri.com/jgm
   donations:
+   - amount: $10.100
+     date: jan 2020
+     organization: Red Cross Australia
+     organization_url: https://www.redcross.org.au
    - amount: $14.14
      date: dec 2019
      organization: NYAAF
