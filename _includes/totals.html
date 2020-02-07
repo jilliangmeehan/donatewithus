@@ -1,0 +1,4 @@
+{% assign people-totals = site.data.people | map: "total" %}
+{% for item in people-totals %}
+  {% assign site-total = 0 } plus: people-totals %}
+{% endfor %}
