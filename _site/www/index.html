@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>{{page_title}}</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link href="https://fonts.googleapis.com/css?family=Work+Sans:400,600,800" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="/stylesheets/site.css">
+
+  <!-- Social cards -->
+  <meta property="og:title" content="Give with us">
+  <meta property="og:description" content="We're donating some money to organizations we care about every month.">
+  <meta property="og:image" content="/images/main_favicon.ico">
+  <meta property="og:url" content="https://givewith.us">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Give with us">
+  <meta name="twitter:description" content="We're donating some money to organizations we care about every month.">
+  <meta name="twitter:image" content="/images/main_favicon.ico">
+
+  <!-- Favicon -->
+  <link id="favicon" rel="icon" href="/images/main_favicon.ico" type="image/x-icon">
+</head>
+<body>
+  <header class="header">
+    <h1>{{header_title}}</h1>
+    <div class="container">
+      <p>{{header_text}}</p>
+      <p><a href="#page-anchor" class="button">{{header_button_text}}</a></p>
+    </div>
+  </header>
+
+  <section class="about">
+    <div class="container flex">
+      {{#section about multiple=true sortable=true}}
+      <div class="item">
+        <h2>{{about_header}}</h2>
+        <p>{{about_text long=true}}</p>
+      </div>
+      {{/section}}
+    </div>
+  </section>
+
+  <section class="people" id="page-anchor">
+    <div class="container flex">
+    {{#section people multiple=true sortable=true}}
+      <div class="item people">
+        {{avatar type=image}}
+        <div class="info">
+          <p class="name">{{name}}</p>
+          <a href="/{{name}}">help me donate →</a>
+        </div>
+      </div>
+    {{/section}}
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <p><small>{{footer_text large="true"}}</small></p>
+      <p><a href="{{footer_button_url}}" class="button">{{footer_button_text}}</a></p>
+    </div>
+  </footer>
+
+  <script src="/javascripts/site.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script>
+    $(document).ready(function(){
+  $("a").on('click', function(event) {
+
+    if (this.hash !== "") {
+      event.preventDefault();
+
+      var hash = this.hash;
+
+
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 1500, function(){
+
+        window.location.hash = hash;
+      });
+    }
+  });
+});
+  </script>
+
+  <!-- Fathom - simple website analytics - https://usefathom.com -->
+<script>
+(function(f, a, t, h, o, m){
+a[h]=a[h]||function(){
+    (a[h].q=a[h].q||[]).push(arguments)
+};
+o=f.createElement('script'),
+m=f.getElementsByTagName('script')[0];
+o.async=1; o.src=t; o.id='fathom-script';
+m.parentNode.insertBefore(o,m)
+})(document, window, '//cdn.usefathom.com/tracker.js', 'fathom');
+fathom('set', 'siteId', 'PNGLZZAQ');
+fathom('trackPageview');
+</script>
+<!-- / Fathom -->
+</body>
+</html>
