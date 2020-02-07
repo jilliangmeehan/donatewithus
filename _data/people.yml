@@ -82,13 +82,17 @@
   url: https://www.instagram.com/fracturedaesthetic/
   id: 1
   img: assets/images/natalie_favicon.ico
-  organization: NYAAF
-  organization_url: https://www.nyaaf.org
-  total: $92.66
+  organization: Sylvia Rivera Law Project
+  organization_url: https://srlp.org/
+  total: $106.66
   links:
    - title: Glossier
      url: http://www.glossier.com/reps/nataliegeisel
   donations:
+   - amount: $14.00
+     date: jan 2020
+     organization: NYAAF
+     organization_url: https://www.nyaaf.org
    - amount: $10.00
      date: dec 2019
      organization: Trans Lifeline
