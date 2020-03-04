@@ -205,13 +205,17 @@
   url: https://www.instagram.com/mollify/
   id: 4
   img: assets/images/molly_favicon.ico
-  organization: Black Lives Matter
-  organization_url: https://blacklivesmatter.com
-  total: 94.52
+  organization: The Malala Fund
+  organization_url: https://www.malala.org
+  total: 104.52
   links:
    - title: Glossier
      url: https://www.glossier.com/reps/mollyh
   donations:
+   - amount: $10.00
+     date: feb 2020
+     organization: Black Lives Matter
+     organization_url: https://blacklivesmatter.com
    - amount: $12.00
      date: jan 2020
      organization: Red Cross Australia
