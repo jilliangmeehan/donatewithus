@@ -88,11 +88,15 @@
   img: assets/images/natalie_favicon.ico
   organization: Sylvia Rivera Law Project
   organization_url: https://srlp.org/
-  total: 106.66
+  total: 117.94
   links:
    - title: Glossier
      url: http://www.glossier.com/reps/nataliegeisel
   donations:
+   - amount: $11.28
+     date: feb 2020
+     organization: Sylvia Rivera Law Project
+     organization_url: https://srlp.org/
    - amount: $14.00
      date: jan 2020
      organization: NYAAF
