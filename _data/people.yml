@@ -5,13 +5,21 @@
   img: assets/images/jillian_favicon.ico
   organization: One Tree Planted
   organization_url: https://onetreeplanted.org
-  total: 321.61
+  total: 331.61
   links:
    - title: Glossier
      url: https://glossier.com/reps/jillian
    - title: Mejuri
      url: http://crew.mejuri.com/jgm
   donations:
+   - amount: $5.00
+     date: mar 2020
+     organization: One Tree Planted
+     organization_url: https://onetreeplanted.org
+   - amount: $5.00
+     date: mar 2020
+     organization: Doctors Without Borders
+     organization_url: https://www.doctorswithoutborders.org
    - amount: $10.00
      date: feb 2020
      organization: Abide Women's Health Services
