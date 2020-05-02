@@ -5,13 +5,17 @@
   img: assets/images/jillian_favicon.ico
   organization: National Domestic Workers Alliance
   organization_url: https://www.domesticworkers.org
-  total: 331.61
+  total: 367.97
   links:
    - title: Glossier
      url: https://glossier.com/reps/jillian
    - title: Mejuri
      url: http://crew.mejuri.com/jgm
   donations:
+   - amount: $36.36
+     date: apr 2020
+     organization: National Domestic Workers Alliance
+     organization_url: https://www.domesticworkers.org
    - amount: $5.00
      date: mar 2020
      organization: One Tree Planted
@@ -215,13 +219,17 @@
   url: https://www.instagram.com/mollify/
   id: 4
   img: assets/images/molly_favicon.ico
-  organization: The Malala Fund
-  organization_url: https://www.malala.org
-  total: 104.52
+  organization: World Central Kitchen
+  organization_url: https://wck.org
+  total: 112.52
   links:
    - title: Glossier
      url: https://www.glossier.com/reps/mollyh
   donations:
+   - amount: $8.00
+     date: mar 2020
+     organization: The Malala Fund
+     organization_url: https://www.malala.org
    - amount: $10.00
      date: feb 2020
      organization: Black Lives Matter
