@@ -3,15 +3,23 @@
   url: https://jillianmeehan.com
   id: 0
   img: assets/images/jillian_favicon.ico
-  organization: National Domestic Workers Alliance
-  organization_url: https://www.domesticworkers.org
-  total: 367.97
+  organization: GLITS
+  organization_url: https://www.glitsinc.org
+  total: 386.64
   links:
    - title: Glossier
      url: https://glossier.com/reps/jillian
    - title: Mejuri
      url: http://crew.mejuri.com/jgm
   donations:
+   - amount: $10.00
+     date: june 2020
+     organization: The Okra Project
+     organization_url: https://www.theokraproject.com
+   - amount: $8.67
+     date: may 2020
+     organization: National Domestic Workers Alliance
+     organization_url: https://www.domesticworkers.org
    - amount: $36.36
      date: apr 2020
      organization: National Domestic Workers Alliance
@@ -219,8 +227,8 @@
   url: https://www.instagram.com/mollify/
   id: 4
   img: assets/images/molly_favicon.ico
-  organization: World Central Kitchen
-  organization_url: https://wck.org
+  organization: The Okra Project
+  organization_url: https://www.theokraproject.com
   total: 112.52
   links:
    - title: Glossier
